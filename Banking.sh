@@ -46,6 +46,7 @@ fi
 elif [ $option -eq 2 ]
 then
    echo "Current Balance: 1000 "
+   break
 else
    echo "Invalid Option"
 fi
