@@ -2,6 +2,14 @@
 
 while :
 do
+echo "Select any one of the following options"
+echo "1.Withdraw"
+echo "2.Check Balance"
+read option
+
+if [ $option -eq 1 ]
+then
+
 echo
 Balance="1000"
 echo -e "Balance \$$Balance" "\n"
@@ -33,6 +41,13 @@ break
    	
 fi
 
+fi
+
+elif [ $option -eq 2 ]
+then
+   echo "Current Balance: 1000 "
+else
+   echo "Invalid Option"
 fi
 
 done
